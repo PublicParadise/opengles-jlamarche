@@ -9,7 +9,7 @@ Note that all examples are for ES1 and do not correspond to [Jeff's unfinished E
  
 ### OpenGL ES from the Ground Up: Table of Contents (ES1)
 
-This [posting](http://iphonedevelopment.blogspot.co.uk/2009/05/opengl-es-from-ground-up-table-of.html) will act as a table of contents to my OpenGL From the Ground Up series of tutorial. As I add new postings, I will add them here:
+This is a table of contents to Jeff's [OpenGL From the Ground Up](http://iphonedevelopment.blogspot.co.uk/2009/05/opengl-es-from-ground-up-table-of.html) series of tutorial:
 
 - 1. [Basic Concepts](http://iphonedevelopment.blogspot.com/2009/04/opengl-es-from-ground-up-part-1-basic.html). Also read [Alphabet Soup](http://iphonedevelopment.blogspot.com/2009/05/opengl-es-from-ground-up-part-1.html)
 - 2. [A Look at Simple Drawing](http://iphonedevelopment.blogspot.com/2009/04/opengl-es-from-ground-up-part-2-look-at.html)
