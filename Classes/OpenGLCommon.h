@@ -1,7 +1,7 @@
 #if TARGET_OS_IPHONE || TARGET_IPHONE_SIMULATOR || TARGET_OS_EMBEDDED
 #import <OpenGLES/EAGL.h>
 
-// bparadie: You can't use ES2 here, which made me realize that Jeff's series is really about ES1 not ES2.
+// bparadie: You can't use ES1 here, which made me realize that Jeff's series is really about ES1 not ES1.
 #import <OpenGLES/ES1/gl.h>
 #import <OpenGLES/ES1/glext.h>
 #else
