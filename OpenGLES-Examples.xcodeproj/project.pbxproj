@@ -55,6 +55,15 @@
 		4CF2EA8B1C33229E006411B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CF2E9A91C331D7C006411B1 /* Assets.xcassets */; };
 		4CF2EA8C1C33229E006411B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CF2E9A61C331D7C006411B1 /* Main.storyboard */; };
 		4CF2EA921C3322AB006411B1 /* GLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF2EA151C332252006411B1 /* GLViewController.m */; };
+		4CF2EA961C33A663006411B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF2E9A41C331D7C006411B1 /* ViewController.m */; };
+		4CF2EA971C33A663006411B1 /* GLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF2E9B71C331DEC006411B1 /* GLView.m */; };
+		4CF2EA991C33A663006411B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF2E9A11C331D7C006411B1 /* AppDelegate.m */; };
+		4CF2EA9A1C33A663006411B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF2E99E1C331D7C006411B1 /* main.m */; };
+		4CF2EA9D1C33A663006411B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CF2E9AB1C331D7C006411B1 /* LaunchScreen.storyboard */; };
+		4CF2EA9E1C33A663006411B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CF2E9A91C331D7C006411B1 /* Assets.xcassets */; };
+		4CF2EA9F1C33A663006411B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CF2E9A61C331D7C006411B1 /* Main.storyboard */; };
+		4CF2EAAC1C33A67C006411B1 /* GLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF2EAA91C33A67C006411B1 /* GLViewController.m */; };
+		4CF2EAAD1C33A67C006411B1 /* OpenGLTexture3D.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF2EAAB1C33A67C006411B1 /* OpenGLTexture3D.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -89,6 +98,13 @@
 		4CF2EA661C332284006411B1 /* Part 5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Part 5.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CF2EA7B1C33228C006411B1 /* Part 6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Part 6.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CF2EA901C33229E006411B1 /* Part 8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Part 8.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CF2EAA31C33A663006411B1 /* BouncyBall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BouncyBall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CF2EAA61C33A67C006411B1 /* Ball1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ball1.h; sourceTree = "<group>"; };
+		4CF2EAA71C33A67C006411B1 /* Ball2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ball2.h; sourceTree = "<group>"; };
+		4CF2EAA81C33A67C006411B1 /* GLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLViewController.h; sourceTree = "<group>"; };
+		4CF2EAA91C33A67C006411B1 /* GLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLViewController.m; sourceTree = "<group>"; };
+		4CF2EAAA1C33A67C006411B1 /* OpenGLTexture3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLTexture3D.h; sourceTree = "<group>"; };
+		4CF2EAAB1C33A67C006411B1 /* OpenGLTexture3D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenGLTexture3D.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +150,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4CF2EA9B1C33A663006411B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -156,6 +179,7 @@
 				4CF2EA661C332284006411B1 /* Part 5.app */,
 				4CF2EA7B1C33228C006411B1 /* Part 6.app */,
 				4CF2EA901C33229E006411B1 /* Part 8.app */,
+				4CF2EAA31C33A663006411B1 /* BouncyBall.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -204,6 +228,7 @@
 				4CF2EA191C332252006411B1 /* Part5 */,
 				4CF2EA1C1C332252006411B1 /* Part6 */,
 				4CF2EA1F1C332252006411B1 /* Part8 */,
+				4CF2EAA51C33A67C006411B1 /* BouncyBall */,
 			);
 			path = Examples;
 			sourceTree = "<group>";
@@ -260,6 +285,19 @@
 				4CF2EA211C332252006411B1 /* GLViewController.m */,
 			);
 			path = Part8;
+			sourceTree = "<group>";
+		};
+		4CF2EAA51C33A67C006411B1 /* BouncyBall */ = {
+			isa = PBXGroup;
+			children = (
+				4CF2EAA61C33A67C006411B1 /* Ball1.h */,
+				4CF2EAA71C33A67C006411B1 /* Ball2.h */,
+				4CF2EAA81C33A67C006411B1 /* GLViewController.h */,
+				4CF2EAA91C33A67C006411B1 /* GLViewController.m */,
+				4CF2EAAA1C33A67C006411B1 /* OpenGLTexture3D.h */,
+				4CF2EAAB1C33A67C006411B1 /* OpenGLTexture3D.m */,
+			);
+			path = BouncyBall;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -367,6 +405,23 @@
 			productReference = 4CF2EA901C33229E006411B1 /* Part 8.app */;
 			productType = "com.apple.product-type.application";
 		};
+		4CF2EA941C33A663006411B1 /* BouncyBall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CF2EAA01C33A663006411B1 /* Build configuration list for PBXNativeTarget "BouncyBall" */;
+			buildPhases = (
+				4CF2EA951C33A663006411B1 /* Sources */,
+				4CF2EA9B1C33A663006411B1 /* Frameworks */,
+				4CF2EA9C1C33A663006411B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BouncyBall;
+			productName = "OpenGLES-Examples";
+			productReference = 4CF2EAA31C33A663006411B1 /* BouncyBall.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -395,6 +450,7 @@
 				4CF2EA531C332284006411B1 /* Part 5 */,
 				4CF2EA681C33228C006411B1 /* Part 6 */,
 				4CF2EA7D1C33229E006411B1 /* Part 8 */,
+				4CF2EA941C33A663006411B1 /* BouncyBall */,
 			);
 		};
 /* End PBXProject section */
@@ -457,6 +513,16 @@
 				4CF2EA8A1C33229E006411B1 /* LaunchScreen.storyboard in Resources */,
 				4CF2EA8B1C33229E006411B1 /* Assets.xcassets in Resources */,
 				4CF2EA8C1C33229E006411B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CF2EA9C1C33A663006411B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF2EA9D1C33A663006411B1 /* LaunchScreen.storyboard in Resources */,
+				4CF2EA9E1C33A663006411B1 /* Assets.xcassets in Resources */,
+				4CF2EA9F1C33A663006411B1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -532,6 +598,19 @@
 				4CF2EA831C33229E006411B1 /* AppDelegate.m in Sources */,
 				4CF2EA841C33229E006411B1 /* main.m in Sources */,
 				4CF2EA851C33229E006411B1 /* GLViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CF2EA951C33A663006411B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF2EA961C33A663006411B1 /* ViewController.m in Sources */,
+				4CF2EAAC1C33A67C006411B1 /* GLViewController.m in Sources */,
+				4CF2EAAD1C33A67C006411B1 /* OpenGLTexture3D.m in Sources */,
+				4CF2EA971C33A663006411B1 /* GLView.m in Sources */,
+				4CF2EA991C33A663006411B1 /* AppDelegate.m in Sources */,
+				4CF2EA9A1C33A663006411B1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -771,6 +850,28 @@
 			};
 			name = Release;
 		};
+		4CF2EAA11C33A663006411B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "OpenGLES-Examples/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blogspot.iphonedevelopment.OpenGLES-Examples";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4CF2EAA21C33A663006411B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "OpenGLES-Examples/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blogspot.iphonedevelopment.OpenGLES-Examples";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -833,6 +934,15 @@
 			buildConfigurations = (
 				4CF2EA8E1C33229E006411B1 /* Debug */,
 				4CF2EA8F1C33229E006411B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CF2EAA01C33A663006411B1 /* Build configuration list for PBXNativeTarget "BouncyBall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CF2EAA11C33A663006411B1 /* Debug */,
+				4CF2EAA21C33A663006411B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
