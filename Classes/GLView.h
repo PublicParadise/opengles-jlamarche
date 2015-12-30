@@ -31,7 +31,7 @@
 }
 
 @property(nonatomic, assign) GLViewController *controller;
-@property NSTimeInterval animationInterval;
+@property(nonatomic) NSTimeInterval animationInterval;
 
 -(void)startAnimation;
 -(void)stopAnimation;
